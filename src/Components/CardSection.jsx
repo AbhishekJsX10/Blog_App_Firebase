@@ -17,7 +17,7 @@ const CardSection = ({ currentUser }) => { // Receive currentUser prop
         id: doc.id,
       }));
       setData(fetchedData);
-      console.log('Fetched Data:', fetchedData);
+      // console.log('Fetched Data:', fetchedData);
     });
 
     // Cleanup subscription on unmount
